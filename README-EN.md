@@ -28,8 +28,8 @@
 
 #### Windows
 
-Our software does not contain viruses, but some antiviruses identify such software as potentially dangerous and block the files.  
-You may need to disable your antivirus or allow the downloaded file to run.  
+Our software does not contain viruses, but some antiviruses identify such software as potentially dangerous and block the files.
+You may need to disable your antivirus or allow the downloaded file to run.
 In addition, automatic updates may make your antivirus suspicious, in which case you will need to update manually.  
 
 1. Download the latest
