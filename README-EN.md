@@ -1,6 +1,6 @@
 ## IT Army of Ukraine Official Tool
 
-### Use flag `--lang en` to enable English translation
+### Use `--lang en` to enable English or `--lang es` for Spanish translation
 
 - Built-in proxy server database with a wide range of IPs around the world
 - Efficient on a huge number of targets simultaneously
@@ -9,6 +9,9 @@
 - Frequent automatic updates without user intervention
 
 ### ⏱ Recent updates
+
+<details>
+<summary>Click to expand</summary>
 
 - **08.07.2022**
     - For ease of install and protection against unauthorized use, the program is now distributed
@@ -19,7 +22,9 @@
 - **10.06.2022** Introduced `--proxy` option for providing custom proxies directly from command args
 - **08.06.2022** Added `--copies auto` option to set the value automatically based on the resources available
 
-### 1. 💽 Install and run 
+</details>
+
+### 💽 Install and run 
 
 ### Windows
 
@@ -55,22 +60,22 @@ Note: Tested on Ubuntu >= 18.04 and similar
 
 Note: Tested on macOS >= 11 (Intel and M1)
 
-### 2. 🛠 Configuration and options (needs to be run from cmd/terminal)
+### 🛠 Configuration and options (needs to be run from cmd/terminal)
 
 Add options after the filename in the arbitrary order
 
 - Change language - use `--lang en` or `--lang es` option
 - Consider adding your IP/VPN to the attack (especially when running on dedicated server), add flag `--vpn`
 - Number of threads: `-t XXXX` - the default is 8000 (or 4000 if the machine has only one CPU).
-- Number of copies: `--copies X` or `--copies auto` - in case you have 4+ CPU and stable network 100+ Mb/s
+- Number of copies: `--copies X` or `--copies auto` - in case you have 4+ core CPU and stable network 100+ Mb/s
 
-### 3. 🐳 Community (mostly in Ukrainian)
+### 🐳 Community (mostly in Ukrainian)
 
 - [Create a botnet of 30+ free and standalone Linux servers](https://auto-ddos.notion.site/dd91326ed30140208383ffedd0f13e5c)
 - [Analysis of mhddos_proxy](https://telegra.ph/Anal%D1%96z-zasobu-mhddos-proxy-04-01)
 - [VPN](https://auto-ddos.notion.site/VPN-5e45e0aadccc449e83fea45d56385b54)
 
-### 4. Custom proxies
+### Custom proxies
 
 #### Supported formats:
 
