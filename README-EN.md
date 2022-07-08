@@ -50,11 +50,13 @@ Note: Tested on Ubuntu >= 18.04 and similar
 
 #### macOS
 
+There may be a delay up to 10c on startup, this is normal, please wait for the start.
+
 1. Download the latest
    version [by link](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac)
    and save to a convenient location
-2. At the first launch - hold down Control, click on the file and select "Open" from the context menu.
-   Click the "Open" button.
+2. At the first launch - hold down Control, click on the file, and select "Open" from the context menu.
+   Click the "Open" button
 3. In the future, launch with a regular double-click
 4. If you want to change the settings, run the file through Terminal and add options after the file name
 
