@@ -75,7 +75,7 @@
 - [Аналіз засобу mhddos_proxy](https://telegra.ph/Anal%D1%96z-zasobu-mhddos-proxy-04-01)
 - [VPN](https://auto-ddos.notion.site/VPN-5e45e0aadccc449e83fea45d56385b54)
 
-### Власні проксі
+### ✪ Власні проксі
 
 #### Підтримувані формати:
 
