@@ -32,9 +32,9 @@ Our software does not contain viruses, but some antiviruses identify such softwa
 You may need to disable your antivirus or allow the downloaded file to run.
 In addition, automatic updates may make your antivirus suspicious, in which case you will need to update manually.  
 
-1. Download the latest
-   version [by link](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
-   and save to a convenient location, for example on the Desktop
+1. Download the latest [x64 version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
+   (or [x86 version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win_x86.exe) if needed)
+   and save to a convenient location, for example to the Desktop
 2. To join the attack, simply launch the file by double-click
 3. If you want to change the settings, run the file through the cmd command line and add options after the filename
 

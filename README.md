@@ -32,8 +32,8 @@
 Можливо, вам доведеться вимкнути свій антивірус, або дозволити виконання завантаженого файлу.
 Окрім того, автоматичне оновлення може викликати підозри у антивіруса, у такому випадку вам треба буде оновлюватися вручну.
 
-1. Завантажте останню
-   версію [за посиланням](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
+1. Завантажте останню [x64 версію](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
+   (або [x86 версію](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win_x86.exe) за потреби)
    і збережіть у зручному місці, наприклад на Робочому столі
 2. Щоб приєднатися до атаки, просто запустіть файл подвійним кліком
 3. Якщо ви бажаєте змінювати налаштування, запускайте файл через командний рядок cmd і додавайте параметри після назви файлу
