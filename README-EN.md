@@ -26,7 +26,7 @@
 
 ### 💽 Install and run 
 
-### Windows
+#### Windows
 
 Our software does not contain viruses, but some antiviruses identify such software as potentially dangerous and block the files.  
 You may need to disable your antivirus or allow the downloaded file to run.  
@@ -38,7 +38,7 @@ In addition, automatic updates may make your antivirus suspicious, in which case
 2. To join the attack, simply launch the file by double-click
 3. If you want to change the settings, run the file through the cmd command line and add options after the filename
 
-### Linux
+#### Linux
 
 1. Download the latest
    version [by link](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux)
@@ -48,7 +48,7 @@ In addition, automatic updates may make your antivirus suspicious, in which case
 
 Note: Tested on Ubuntu >= 18.04 and similar
 
-### macOS
+#### macOS
 
 1. Download the latest
    version [by link](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac)
