@@ -1,7 +1,6 @@
-name: docker
+name: release
 
 on:
-  workflow_dispatch:
   release:
     types: [ released ]
 
@@ -23,4 +22,14 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary
+          tags: ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary, ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:${{ github.event.release.tag_name }}
+
+  update_version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: echo "${{ github.event.release.tag_name }}" > version.txt
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          - file_pattern: version.txt
