@@ -61,6 +61,10 @@ Note: Tested on Ubuntu >= 18.04 and similar
 
 Note: Tested on macOS >= 11 (Intel and M1)
 
+#### Docker (not recommended, use the options above)
+
+    docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary
+
 ### 🛠 Configuration and options (needs to be run from cmd/terminal)
 
 Add options after the filename in the arbitrary order
