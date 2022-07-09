@@ -1,6 +1,7 @@
 name: docker
 
 on:
+  workflow_dispatch:
   release:
     types: [ released ]
 
@@ -16,7 +17,7 @@ jobs:
 
       - name: Login to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
-        
+
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
