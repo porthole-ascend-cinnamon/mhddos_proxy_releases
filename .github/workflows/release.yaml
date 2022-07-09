@@ -29,6 +29,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: 'main'
+
       - run: echo "${{ github.event.release.tag_name }}" > version.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
