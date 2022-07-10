@@ -1,6 +1,6 @@
 ## IT Army of Ukraine Official Tool
 
-### Use `--lang en` to enable English or `--lang es` for Spanish translation
+#### See [Configuration and options](#-configuration-and-options) on how to change the interface language 
 
 - Built-in proxy server database with a wide range of IPs around the world
 - Efficient on a huge number of targets simultaneously
@@ -13,6 +13,7 @@
 <details>
 <summary>Click to expand</summary>
 
+- **10.07.2022** It is now possible to set options via mhddos.ini file. Added DE | PL | LT languages
 - **08.07.2022**
     - For ease of install and protection against unauthorized use, the program is now distributed
       as an executable file
@@ -30,13 +31,12 @@
 
 Our software does not contain viruses, but some antiviruses identify such software as potentially dangerous and block the files.
 You may need to disable your antivirus or allow the downloaded file to run.
-In addition, automatic updates may make your antivirus suspicious, in which case you will need to update manually.  
+In addition, automatic updates may make your antivirus suspicious, in which case you will need to update manually
 
 1. Download the latest [x64 version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
    (or [x86 version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win_x86.exe) if needed)
-   and save to a convenient location, for example to the Desktop
+   and save to a convenient location
 2. To join the attack, simply launch the file by double-click
-3. If you want to change the settings, run the file through the cmd command line and add options after the filename
 
 #### Linux
 
@@ -44,7 +44,7 @@ In addition, automatic updates may make your antivirus suspicious, in which case
    version [by link](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux)
    and save to a convenient location
 2. Open a terminal, go to the folder with the file and run `chmod +x mhddos_proxy_linux`
-3. Run `./mhddos_proxy_linux` from the terminal, optionally add options after the file name
+3. Run `./mhddos_proxy_linux` from the terminal
 
 Note: Tested on Ubuntu >= 18.04 and similar
 
@@ -54,25 +54,42 @@ Note: Tested on Ubuntu >= 18.04 and similar
    version [by link](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac)
    and save to a convenient location
 2. Open Terminal, go to the folder with the file and run `chmod +x mhddos_proxy_mac`
-3. Next, run `./mhddos_proxy_mac` - a modal window will appear with a message "cannot be opened".
+3. Next, run `./mhddos_proxy_mac` - a modal window will appear with a message "cannot be opened"
 4. Go to System Preferences > Security & Privacy, and click "Open Anyway" (bottom right part of the screen)
-5. From now on, run either `./mhddos_proxy_mac` from the terminal, optionally adding options after the file name, or simply double-click the file.
-   There may be a delay up to 10s on startup, this is normal, please wait for the start.
+5. From now on, run either via double-click on the file, or `./mhddos_proxy_mac` from the Terminal
+   There may be a delay up to 10s on startup, this is normal, please wait for the start
 
 Note: Tested on macOS >= 11 (Intel and M1)
 
-#### Docker (not recommended, use the options above)
+#### Docker
 
-    docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary
+1. Install and launch [Docker](https://docs.docker.com/desktop/#download-and-install)
+2. Run with the command `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary`
 
-### 🛠 Configuration and options (needs to be run from cmd/terminal)
+### 🛠 Configuration and options
 
-Add options after the filename in the arbitrary order
+An **mhddos.ini** file will be created in the current directory on the first launch  
+You may edit it to change configuration
 
-- Change language - use `--lang en` or `--lang es` option
-- Consider adding your IP/VPN to the attack (especially when running on dedicated server), add flag `--vpn`
-- Number of threads: `-t XXXX` - the default is 8000 (or 4000 if the machine has only one CPU).
-- Number of copies: `--copies X` or `--copies auto` - in case you have 4+ core CPU and stable network 100+ Mb/s
+Change language:
+
+    lang    = ua | en | es | de | pl | lt
+
+Run multiple copies (auto for max value, requires 3+ core CPU and stable network):
+
+    copies  = 1 | 2 | auto
+
+Add your IP/VPN to the attack (when using VPN or dedicated server):
+
+    vpn     = true
+
+Number of threads per copy:
+
+    threads = 8000
+
+You can also specify options via command line in `--lang en` and `--vpn` format
+
+Full list of options is available by `--help` command
 
 ### 🐳 Community (mostly in Ukrainian)
 
@@ -81,6 +98,17 @@ Add options after the filename in the arbitrary order
 - [VPN](https://auto-ddos.notion.site/VPN-5e45e0aadccc449e83fea45d56385b54)
 
 ### ✪ Custom proxies
+
+To specify custom proxy(ies), use the `proxy` option
+
+    proxy = [socks4://114.231.123.38:3065, socks5://114.231.123.38:1080]
+
+If the list of proxies is too big, use the local or remote file option `proxies`. 
+Each proxy should be on a new line
+
+    proxies = proxies.txt | https://pastebin.com/raw/UkFWzLOt 
+
+Surely, it's also available via command line with `--proxy` and `--proxies` params
 
 #### Supported formats:
 
@@ -92,15 +120,3 @@ Add options after the filename in the arbitrary order
     http://username:password@114.231.123.38:3065
 
 if protocol (`socks4`|`socks5`) is not specified, `http` is used by default
-
-#### Command line
-
-To specify custom proxy (or multiple) use `--proxy` option:
-
-    --proxy socks4://114.231.123.38:3065 socks5://114.231.123.38:1080
-
-If the list of custom proxies gets too long, consider switching to file (local or remote) configuration.
-Each proxy should be on a new line.
-
-    --proxies proxies.txt
-    --proxies https://pastebin.com/raw/UkFWzLOt
