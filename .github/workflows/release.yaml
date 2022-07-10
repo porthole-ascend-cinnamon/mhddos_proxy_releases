@@ -22,7 +22,7 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary, ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:${{ github.event.release.tag_name }}
+          tags: ghcr.io/porthole-ascend-cinnamon/mhddos_proxy, ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:${{ github.event.release.tag_name }}
 
   update_version:
     runs-on: ubuntu-latest

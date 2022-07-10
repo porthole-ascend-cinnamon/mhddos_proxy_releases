@@ -64,7 +64,7 @@ Note: Tested on macOS >= 11 (Intel and M1)
 #### Docker
 
 1. Install and launch [Docker](https://docs.docker.com/desktop/#download-and-install)
-2. Run with the command `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary`
+2. Run with the command `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy`
 
 ### 🛠 Configuration and options
 

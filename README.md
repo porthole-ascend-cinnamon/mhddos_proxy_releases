@@ -64,7 +64,7 @@
 #### Docker
 
 1. Встановіть та запустіть [Docker](https://docs.docker.com/desktop/#download-and-install)
-2. Запускайте командою `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:binary`
+2. Запускайте командою `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy`
 
 ### 🛠 Налаштування та параметри
 
