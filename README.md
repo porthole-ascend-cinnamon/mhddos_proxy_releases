@@ -106,9 +106,12 @@
 Якщо перелік проксі занадто великий, скористайтеся опцією передачі через локальний чи віддалений файл `proxies`,
 кожен проксі з нового рядка
 
-    proxies = proxies.txt | https://pastebin.com/raw/UkFWzLOt 
+    proxies = proxies.txt | https://pastebin.com/raw/UkFWzLOt
 
-Звичайно, це доступно і з командного рядка `--proxy` та `--proxies` відповідно
+Звичайно, ці опції доступні і з командного рядка
+
+    --proxy socks4://114.231.123.38:3065 socks5://114.231.123.38:1080
+    --proxies proxies.txt | https://pastebin.com/raw/UkFWzLOt
 
 #### Підтримувані формати:
 

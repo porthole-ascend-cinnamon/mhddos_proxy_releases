@@ -106,9 +106,12 @@ To specify custom proxy(ies), use the `proxy` option
 If the list of proxies is too big, use the local or remote file option `proxies`. 
 Each proxy should be on a new line
 
-    proxies = proxies.txt | https://pastebin.com/raw/UkFWzLOt 
+    proxies = proxies.txt | https://pastebin.com/raw/UkFWzLOt
 
-Surely, it's also available via command line with `--proxy` and `--proxies` params
+Surely, these options are also available via command line
+
+    --proxy socks4://114.231.123.38:3065, socks5://114.231.123.38:1080
+    --proxies proxies.txt | https://pastebin.com/raw/UkFWzLOt
 
 #### Supported formats:
 
