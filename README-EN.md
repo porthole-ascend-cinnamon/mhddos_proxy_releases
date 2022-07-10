@@ -13,7 +13,7 @@
 <details>
 <summary>Click to expand</summary>
 
-- **10.07.2022** It is now possible to set options via mhddos.ini file
+- **10.07.2022** It is now possible to set options via mhddos.ini file. Added DE | PL | LT languages
 - **08.07.2022**
     - For ease of install and protection against unauthorized use, the program is now distributed
       as an executable file
@@ -71,19 +71,19 @@ Note: Tested on macOS >= 11 (Intel and M1)
 An **mhddos.ini** file will be created in the current directory on the first launch  
 You may edit it to change configuration
 
-Change language
+Change language:
 
-    lang    = ua | en | es
+    lang    = ua | en | es | de | pl | lt
 
-Run multiple copies (auto for max value, requires 3+ core CPU and stable network)
+Run multiple copies (auto for max value, requires 3+ core CPU and stable network):
 
     copies  = 1 | 2 | auto
 
-Add your IP/VPN to the attack (when using VPN or dedicated server)
+Add your IP/VPN to the attack (when using VPN or dedicated server):
 
     vpn     = true
 
-Number of threads per copy
+Number of threads per copy:
 
     threads = 8000
 

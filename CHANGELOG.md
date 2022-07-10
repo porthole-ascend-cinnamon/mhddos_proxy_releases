@@ -1,3 +1,6 @@
+- **10.07.2022** 
+  - It is now possible to set options via mhddos.ini file
+  - Added DE | PL | LT languages support
 - **08.07.2022**
   - For ease of install and protection against unauthorized use, the program is now distributed
     as an executable file
