@@ -1,6 +1,6 @@
 ## IT Army of Ukraine Official Tool
 
-### [English version - click here](/README-EN.md)
+#### [English version - click here](/README-EN.md)
 
 - Власна база проксі забезпечує атаку з усіх кінців світу, що значно ускладнює захист від неї
 - Ефективна робота з великою кількістю цілей одночасно

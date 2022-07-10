@@ -1,6 +1,6 @@
 ## IT Army of Ukraine Official Tool
 
-### Use `--lang en` to enable English or `--lang es` for Spanish translation
+#### See [Configuration and options](#-configuration-and-options) on how to change the interface language 
 
 - Built-in proxy server database with a wide range of IPs around the world
 - Efficient on a huge number of targets simultaneously
