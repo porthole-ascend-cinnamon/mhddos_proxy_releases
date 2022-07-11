@@ -75,7 +75,7 @@ Change language:
 
     lang    = ua | en | es | de | pl | lt
 
-Run multiple copies (auto for max value, requires 3+ core CPU and stable network):
+Run multiple copies (set "auto" for max value, requires 3+ core CPU and stable network):
 
     copies  = 1 | 2 | auto
 
