@@ -1,3 +1,6 @@
+- **13.07.2022**
+  - Added `no-updates` option to disable auto-updates (not recommended)
+  - Added linux/arm64 build
 - **10.07.2022** 
   - It is now possible to set options via mhddos.ini file
   - Added DE | PL | LT languages support
