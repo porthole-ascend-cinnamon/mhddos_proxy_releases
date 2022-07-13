@@ -1,21 +1,21 @@
 ## IT Army of Ukraine Official Tool
 
 #### See [Configuration and options](#-configuration-and-options) on how to change the interface language 
+#### [Jump to installation](#-install-and-run)
 
-- Built-in proxy server database with a wide range of IPs around the world
-- Efficient on a huge number of targets simultaneously
-- A variety of different load-testing methods, both "classic" and proprietary ones
-- Effective utilization of your resources due to the asynchronous architecture
+### ⭐ Advantages
+
+- Own proxy database creates the attack from the whole world, which makes it much more difficult to protect against
+- Efficient on a large number of targets simultaneously
+- A variety of different methods, both "classic" and proprietary ones
+- Multiple (over 5) languages support 
 - Frequent automatic updates without user intervention
 
 ### ⏱ Recent updates
 
-- **13.07.2022** Added `no-updates` option to disable auto-updates (not recommended). Added linux/arm64 build
+- **13.07.2022** Added linux/arm64 build. Added `no-updates` option to disable auto-updates (not recommended)
 - **10.07.2022** It is now possible to set options via mhddos.ini file. Added DE | PL | LT languages
-- **08.07.2022**
-    - For ease of install and protection against unauthorized use, the program is now distributed
-      as an executable file
-    - The ability to set own targets has been removed - IT Army of Ukraine targets are used
+- **08.07.2022** For ease of install and protection against unauthorized use, the program is now distributed as an executable file
 
 ### 💽 Install and run 
 
