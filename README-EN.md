@@ -52,7 +52,7 @@ Note: Tested on Ubuntu >= 18.04 and similar
 3. Next, run `./mhddos_proxy_mac`
    1. If a modal window with a message "cannot be opened" appears
    2. Go to System Preferences > Security & Privacy, and click "Open Anyway" (bottom right part of the screen)
-4. From now on, run either via double-click on the file, or `./mhddos_proxy_mac` from the Terminal
+4. From now on, run either via double-click on the file, or `./mhddos_proxy_mac` from the Terminal  
    There may be a delay up to 10s on startup, this is normal, please wait for the start
 
 Note: Tested on macOS >= 11 (Intel and M1)
