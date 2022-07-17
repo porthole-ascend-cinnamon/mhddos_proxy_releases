@@ -13,6 +13,7 @@
 
 ### ⏱ Recent updates
 
+- **18.07.2022** Added new languages (nl | jp | it | cn)
 - **13.07.2022** Added linux/arm64 build. Added `no-updates` option to disable auto-updates (not recommended)
 - **10.07.2022** It is now possible to set options via mhddos.ini file. Added DE | PL | LT languages
 - **08.07.2022** For ease of install and protection against unauthorized use, the program is now distributed as an executable file
@@ -67,7 +68,7 @@ Note: Tested on macOS >= 11 (Intel and M1)
 An **mhddos.ini** file will be created in the current directory on the first launch  
 You may edit it to change configuration
 
-    # Change language (ua | en | es | de | pl | lt)
+    # Change language (ua | en | es | de | pl | lt | nl | jp | it | cn)
     lang = ua
 
     # Run multiple copies (set "auto" for max value, requires 3+ core CPU and stable network)

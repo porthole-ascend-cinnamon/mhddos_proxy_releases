@@ -1,3 +1,5 @@
+- **18.07.2022** 
+  - Added new languages (nl | jp | it | cn)
 - **13.07.2022**
   - Added linux/arm64 build
   - Added `no-updates` option to disable auto-updates (not recommended)
