@@ -42,6 +42,11 @@ And for the aarch64 (arm64) version, the command
 3. Run `chmod +x mhddos_proxy_linux`
 4. To start the attack, run `./mhddos_proxy_linux`
 
+To raise max threads limit, use the following command (requires `root`, repeat after system reboot)
+```
+sysctl -w net.ipv4.ip_local_port_range="16384 65535"
+```
+
 Note: Tested on Ubuntu >= 18.04 and similar
 
 #### macOS
