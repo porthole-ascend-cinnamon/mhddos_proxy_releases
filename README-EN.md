@@ -25,8 +25,7 @@ Attention! Updates happen automatically, all steps except the last one need to b
 #### Windows
 
 Our software does not contain viruses, but some antiviruses identify such software as potentially dangerous and block the files.
-You may need to disable your antivirus or allow the downloaded file to run.
-In addition, automatic updates may make your antivirus suspicious, in which case you will need to update manually
+You may need to allow running the downloaded file, or disable your antivirus.
 
 1. Download the latest [x64 version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
    (or [x86 (32-bit)](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win_x86.exe) version if needed)
