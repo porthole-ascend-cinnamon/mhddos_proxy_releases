@@ -46,8 +46,6 @@
 sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 ```
 
-Примітка: перевірено на Ubuntu >= 18.04 та подібних
-
 #### macOS
 
 1. Завантажте [останню версію](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac)
@@ -58,8 +56,6 @@ sysctl -w net.ipv4.ip_local_port_range="16384 65535"
    2. Зайдіть в Системні параметри > Безпека та приватність, та натисніть "Все одно відкрити"
 4. Надалі запускайте або подвійним кліком по файлу, або з Terminal `./mhddos_proxy_mac`  
    При старті може бути затримка до 10c, це нормально, будь ласка, дочекайтеся запуску
-
-Примітка: перевірено на macOS >= 11 (Intel та M1)
 
 #### Docker
 

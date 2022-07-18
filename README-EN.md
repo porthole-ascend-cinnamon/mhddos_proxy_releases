@@ -47,8 +47,6 @@ To raise max threads limit, use the following command (requires `root`, repeat a
 sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 ```
 
-Note: Tested on Ubuntu >= 18.04 and similar
-
 #### macOS
 
 1. Download the [latest version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac)
@@ -59,8 +57,6 @@ Note: Tested on Ubuntu >= 18.04 and similar
    2. Go to System Preferences > Security & Privacy, and click "Open Anyway" (bottom right part of the screen)
 4. From now on, run either via double-click on the file, or `./mhddos_proxy_mac` from the Terminal  
    There may be a delay up to 10s on startup, this is normal, please wait for the start
-
-Note: Tested on macOS >= 11 (Intel and M1)
 
 #### Docker
 
