@@ -33,12 +33,11 @@
 
 #### Linux
 
-1. Встановіть `wget`, якщо він відсутній, командою `apt install wget`
-2. Для завантаження x64 (amd64) версії, скористайтеся командою  
-`wget https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`  
-А для aarch64 (arm64) версії, командою  
-`wget https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64 -O mhddos_proxy_linux`  
-3. Виконайте `chmod +x mhddos_proxy_linux`
+1. Для завантаження x64 (amd64) версії, скористайтеся командою:  
+`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`
+А для aarch64 (arm64) версії, командою:  
+`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64`
+3. Далі, виконайте `chmod +x mhddos_proxy_linux`
 4. Для початку атаки, виконуйте `./mhddos_proxy_linux`
 
 Для збільшення ліміту на кількість потоків, виконайте наступну команду (потребує `root` прав, працює до перезапуску системи)
@@ -50,7 +49,7 @@ sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 
 1. Відкрийте Terminal
 2. Завантажте додаток командою  
-`wget https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac`
+`curl -Lo mhddos_proxy_mac https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac`
 3. Виконайте `chmod +x mhddos_proxy_mac && sudo xattr -d com.apple.quarantine mhddos_proxy_mac` (потрібно буде ввести пароль)
 4. Для початку атаки, виконуйте `./mhddos_proxy_mac`
 

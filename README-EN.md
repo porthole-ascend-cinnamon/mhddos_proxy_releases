@@ -34,15 +34,14 @@ You may need to allow running the downloaded file, or disable your antivirus.
 
 #### Linux
 
-1. Install `wget` if it is not installed, with the command `apt install wget`
-2. To download the x64 (amd64) version, use the command  
-`wget https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`  
-And for the aarch64 (arm64) version, the command  
-`wget https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64 -O mhddos_proxy_linux`  
-3. Run `chmod +x mhddos_proxy_linux`
-4. To start the attack, run `./mhddos_proxy_linux`
+1. To download the x64 (amd64) version, use the command:  
+`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`  
+And for the aarch64 (arm64) version, the command:  
+`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64`  
+2. Next, run `chmod +x mhddos_proxy_linux`
+3. To start the attack, run `./mhddos_proxy_linux`
 
-To raise max threads limit, use the following command (requires `root`, repeat after system reboot)
+To increase max threads limit, use the following command (requires `root`, repeat after system reboot)
 ```
 sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 ```
@@ -50,8 +49,8 @@ sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 #### macOS
 
 1. Open the Terminal
-2. Download the app via:  
-`wget https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac`
+2. To download the latest version, use the command:  
+`curl -Lo mhddos_proxy_mac https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac`
 3. Next, run `chmod +x mhddos_proxy_mac && sudo xattr -d com.apple.quarantine mhddos_proxy_mac` (you'll need to enter your password)
 4. To start the attack, run `./mhddos_proxy_mac`
 
