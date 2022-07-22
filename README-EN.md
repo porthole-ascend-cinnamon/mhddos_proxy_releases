@@ -49,14 +49,11 @@ sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 
 #### macOS
 
-1. Download the [latest version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac)
-   and save to a convenient location
-2. Open Terminal, go to the folder with the file and run `chmod +x mhddos_proxy_mac`
-3. Next, run `./mhddos_proxy_mac`
-   1. If a modal window with a message "cannot be opened" appears
-   2. Go to System Preferences > Security & Privacy, and click "Open Anyway" (bottom right part of the screen)
-4. From now on, run either via double-click on the file, or `./mhddos_proxy_mac` from the Terminal  
-   There may be a delay up to 10s on startup, this is normal, please wait for the start
+1. Open the Terminal
+2. Download the app via:  
+`wget https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac`
+3. Next, run `chmod +x mhddos_proxy_mac && sudo xattr -d com.apple.quarantine mhddos_proxy_mac` (you'll need to enter your password)
+4. To start the attack, run `./mhddos_proxy_mac`
 
 #### Docker
 
