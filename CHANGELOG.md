@@ -1,3 +1,5 @@
+- **29.07.2022**
+  - Internal optimizations, BYPASS method improvements
 - **18.07.2022** 
   - Added new languages (nl | jp | it | cn)
 - **13.07.2022**
