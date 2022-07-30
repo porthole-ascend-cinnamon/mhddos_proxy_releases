@@ -14,7 +14,7 @@
 ### ⏱ Recent updates
 
 - **29.07.2022** Internal optimizations, BYPASS method improvements
-- **18.07.2022** Added new languages (de | pl | lt | nl | jp | it | cn)
+- **18.07.2022** Added new languages (de | pl | lt)
 - **13.07.2022** Added linux/arm64 build. Added `no-updates` option to disable auto-updates (not recommended)
 
 ### 💽 Install and run 
@@ -63,7 +63,7 @@ sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 An **mhddos.ini** file will be created in the current directory on the first launch  
 You may edit it to change configuration
 
-    # Change language (ua | en | es | de | pl | lt | nl | jp | it | cn)
+    # Change language (ua | en | es | de | pl | lt)
     lang = ua
 
     # Run multiple copies (set "auto" for max value, requires 3+ core CPU and stable network)
