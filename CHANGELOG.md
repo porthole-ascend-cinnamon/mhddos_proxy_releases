@@ -1,13 +1,12 @@
 - **29.07.2022**
   - Internal optimizations, BYPASS method improvements
 - **18.07.2022** 
-  - Added new languages (nl | jp | it | cn)
+  - Added new languages (de | pl | lt)
 - **13.07.2022**
   - Added linux/arm64 build
   - Added `no-updates` option to disable auto-updates (not recommended)
 - **10.07.2022** 
   - It is now possible to set options via mhddos.ini file
-  - Added DE | PL | LT languages support
 - **08.07.2022**
   - For ease of install and protection against unauthorized use, the program is now distributed
     as an executable file
