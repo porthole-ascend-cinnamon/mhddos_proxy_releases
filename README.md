@@ -52,6 +52,26 @@ sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 3. Виконайте `chmod +x mhddos_proxy_mac && sudo xattr -d com.apple.quarantine mhddos_proxy_mac` (потрібно буде ввести пароль)
 4. Для початку атаки, виконуйте `./mhddos_proxy_mac`
 
+#### Особливості запуску прiложення під Mac
+
+Запускаючи програму під macOS, ви можете зіткнутися з наступним попередженням
+```
+Загальну кількість потоків зменшено до 206 через обмеження вашої системи
+```
+
+Щоб збільшити кількість дозволених відкритих файлів та потоків програми, 
+вам потрібно виконати наступні команди з кореневого каталогу проекту 
+(усі команди виконувати під `sudo`)
+```
+sysctl -w kern.maxfiles=65536
+sysctl -w kern.maxfilesperproc=65536
+cp darwin/limit.maxfiles.plist /Library/LaunchDaemons
+chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist
+launchctl load -w /Library/LaunchDaemons/limit.maxfiles.plist
+launchctl limit maxfiles
+```
+та перезапустити систему. Після цього всі обмеження мають бути зняті.
+
 #### Docker
 
 1. Встановіть та запустіть [Docker](https://docs.docker.com/desktop/#download-and-install)

@@ -53,6 +53,26 @@ sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 3. Next, run `chmod +x mhddos_proxy_mac && sudo xattr -d com.apple.quarantine mhddos_proxy_mac` (you'll need to enter your password)
 4. To start the attack, run `./mhddos_proxy_mac`
 
+#### Special considerations while running application under macOS
+
+Running application under macOS, you may face system restriction, that looks like that
+```
+The total number of threads has been reduced to 206 due to the limitations of your system
+```
+
+In order to increase the number of allowed file handles, and number of threads, 
+you should use the following commands from the root directory of a project:
+(all commands under `sudo`)
+```
+sysctl -w kern.maxfiles=65536
+sysctl -w kern.maxfilesperproc=65536
+cp darwin/limit.maxfiles.plist /Library/LaunchDaemons
+chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist
+launchctl load -w /Library/LaunchDaemons/limit.maxfiles.plist
+launchctl limit maxfiles
+```
+and restart the system. After that, limitations will be removed.
+
 #### Docker
 
 1. Install and launch [Docker](https://docs.docker.com/desktop/#download-and-install)
