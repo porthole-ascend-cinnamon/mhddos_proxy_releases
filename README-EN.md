@@ -13,9 +13,9 @@
 
 ### ⏱ Recent updates
 
+- **01.08.2022** Ability to specify network interfaces: `--bind local_addr1 local_addr2`
 - **29.07.2022** Internal optimizations, BYPASS method improvements
 - **18.07.2022** Added new languages (de | pl | lt)
-- **13.07.2022** Added linux/arm64 build. Added `no-updates` option to disable auto-updates (not recommended)
 
 ### 💽 Install and run 
 
