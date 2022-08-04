@@ -8,7 +8,7 @@
 - Own proxy database creates the attack from the whole world, which makes it much more difficult to protect against
 - Efficient on a large number of targets simultaneously
 - A variety of different methods, both "classic" and proprietary ones
-- Multiple (over 5) languages support 
+- More than 5 languages available 
 - Frequent automatic updates without user intervention
 
 ### ⏱ Recent updates
