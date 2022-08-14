@@ -1,3 +1,4 @@
+- **14.08.2022** BYPASS method improvements, Ubuntu 16 support
 - **09.08.2022** 
   - Targets prioritization, BYPASS method improvements
 - **01.08.2022** 
