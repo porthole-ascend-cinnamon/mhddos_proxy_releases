@@ -1,3 +1,4 @@
+- **25.08.2022** Recursive bypass, HTTP requests stats
 - **23.08.2022** Various bugfixes and improvements, several new bypasses
 - **14.08.2022** BYPASS method improvements, Ubuntu 16 support
 - **09.08.2022** 
