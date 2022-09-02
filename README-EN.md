@@ -12,10 +12,9 @@
 
 ### ⏱ Recent updates
 
+- **03.09.2022** Memory optimizations, bugfixes and improvements. HTTP stats removed to avoid confusion
 - **25.08.2022** Recursive bypass, HTTP requests stats
 - **23.08.2022** Various bugfixes and improvements, several new bypasses  
-- **14.08.2022** BYPASS method improvements, Ubuntu 16 support
-- **01.08.2022** Ability to specify network interfaces: `--bind local_addr1 local_addr2`
 
 ### 💽 Install and run 
 
@@ -45,15 +44,7 @@ To increase max threads limit, use the following command (requires `root`, repea
 sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 ```
 
-#### macOS
-
-1. Open the Terminal
-2. To download the latest version, use the command:  
-`curl -Lo mhddos_proxy_mac https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_mac`
-3. Next, run `chmod +x mhddos_proxy_mac && sudo xattr -d com.apple.quarantine mhddos_proxy_mac` (you'll need to enter your password)
-4. To start the attack, run `./mhddos_proxy_mac`
-
-#### Docker
+#### Docker (any platform)
 
 1. Install and launch [Docker](https://docs.docker.com/desktop/#download-and-install)
 2. Run with the command `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy`
