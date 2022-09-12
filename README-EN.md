@@ -12,9 +12,9 @@
 
 ### ⏱ Recent updates
 
+- **12.09.2022** Fixed some bugs, and probably added some new ones
 - **03.09.2022** Memory optimizations, bugfixes and improvements. HTTP stats removed to avoid confusion
 - **25.08.2022** Recursive bypass, HTTP requests stats
-- **23.08.2022** Various bugfixes and improvements, several new bypasses  
 
 ### 💽 Install and run 
 

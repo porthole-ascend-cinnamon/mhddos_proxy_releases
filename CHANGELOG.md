@@ -1,5 +1,6 @@
-- **03.09.2022** Memory optimizations, bugfixes and improvements. HTTP stats removed to avoid confusion
-- **25.08.2022** Recursive bypass, HTTP requests stats
+- **12.09.2022** (v62) Fixed some bugs, and probably added some new ones
+- **03.09.2022** (v61) Memory optimizations, bugfixes and improvements. HTTP stats removed to avoid confusion
+- **25.08.2022** (v60) Recursive bypass, HTTP requests stats
 - **23.08.2022** Various bugfixes and improvements, several new bypasses
 - **14.08.2022** BYPASS method improvements, Ubuntu 16 support
 - **09.08.2022** 
