@@ -1,4 +1,4 @@
-- **23.09.2022** (v65) Faster targets reload. Fake data generator. Other improvements
+- **23.09.2022** (v65+v66) Faster targets reload. Fake data generator. Other improvements
 - **15.09.2022** (v64) More bugfixes
 - **12.09.2022** (v62+v63) Fixed some bugs, and probably added some new ones
 - **03.09.2022** (v61) Memory optimizations, bugfixes and improvements. HTTP stats removed to avoid confusion
