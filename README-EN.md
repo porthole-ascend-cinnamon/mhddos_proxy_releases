@@ -10,13 +10,6 @@
 - A variety of different methods, both "classic" and proprietary ones
 - Frequent automatic updates without user intervention
 
-### ⏱ Recent updates
-
-- **15.09.2022** More bugfixes
-- **12.09.2022** Fixed some bugs, and probably added some new ones
-- **03.09.2022** Memory optimizations, bugfixes and improvements. HTTP stats removed to avoid confusion
-- **25.08.2022** Recursive bypass, HTTP requests stats
-
 ### 💽 Install and run 
 
 Attention! Updates happen automatically, all steps except the last one need to be done only at the first time!
