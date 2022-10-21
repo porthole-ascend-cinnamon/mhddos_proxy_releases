@@ -1,3 +1,4 @@
+- **21.10.2022** (v69) May the force be with you. Also, new method 🚀
 - **04.10.2022** (v68) New bypass
 - **29.09.2022** (v67) Support for IT Army statistic bot
 - **23.09.2022** (v65+v66) Faster targets reload. Fake data generator. Other improvements
