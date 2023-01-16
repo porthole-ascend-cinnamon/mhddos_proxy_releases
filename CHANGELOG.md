@@ -1,3 +1,4 @@
+- **16.01.2023** (v73) Will now automatically restart instead of shutting down when the error occurs
 - **05.12.2022** (v70+v71) Restart periodically to avoid resource leak. Allow a copy per each cpu core
 - **21.10.2022** (v69) May the force be with you. Also, new method 🚀
 - **04.10.2022** (v68) New bypass
