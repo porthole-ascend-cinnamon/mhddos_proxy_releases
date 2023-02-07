@@ -1,4 +1,4 @@
-- **07.02.2023** (v74) Internal fixes
+- **07.02.2023** (v74+v75) Internal fixes
 - **29.01.2023** (v73) Bypass improvements
 - **16.01.2023** (v72) Will now automatically restart instead of shutting down when the error occurs
 - **05.12.2022** (v70+v71) Restart periodically to avoid resource leak. Allow a copy per each cpu core
