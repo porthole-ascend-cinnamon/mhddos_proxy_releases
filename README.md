@@ -21,7 +21,7 @@
 1. Завантажте останню [x64 версію](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
    (або [x86 (32-bit)](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win_x86.exe) версію за потреби)
    і збережіть у зручному місці
-2. Для початку, просто запустіть файл подвійним кліком
+2. Щоб розпочати, просто запустіть файл подвійним кліком
 
 #### Linux
 
