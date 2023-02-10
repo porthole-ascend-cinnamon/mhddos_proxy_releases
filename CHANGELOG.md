@@ -1,3 +1,4 @@
+- **10.02.2023** (v76) Raise --threads limit on single core machines
 - **07.02.2023** (v74+v75) Internal fixes
 - **29.01.2023** (v73) Bypass improvements
 - **16.01.2023** (v72) Will now automatically restart instead of shutting down when the error occurs
