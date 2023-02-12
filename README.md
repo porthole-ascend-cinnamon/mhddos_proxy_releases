@@ -36,6 +36,11 @@
 ```
 sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 ```
+або додати до файлу налаштувань і відразу застосувати  (також потребує `root` прав)
+```
+echo 'net.ipv4.ip_local_port_range=16384 65535'>> /etc/sysctl.conf
+sysctl -p
+```
 
 #### Docker (будь-яка платформа)
 
