@@ -37,6 +37,11 @@ To increase max threads limit, use the following command (requires `root`, repea
 ```
 sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 ```
+or add to the settings file and apply immediately (also requires `root` rights)
+```
+echo 'net.ipv4.ip_local_port_range=16384 65535'>> /etc/sysctl.conf
+sysctl -p
+```
 
 #### Docker (any platform)
 
