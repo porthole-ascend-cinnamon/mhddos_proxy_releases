@@ -1,3 +1,4 @@
+- **28.02.2023** (v78) Attempt to prevent excessive CPU and RAM usage 
 - **28.02.2023** (v77) Different internal improvements and fixes
 - **10.02.2023** (v76) Raise --threads limit on single core machines
 - **07.02.2023** (v74+v75) Internal fixes
