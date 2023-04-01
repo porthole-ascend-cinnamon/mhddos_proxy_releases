@@ -1,3 +1,4 @@
+- **01.04.2023** (v80) Default threads value raised. New method added.
 - **11.03.2023** (v78+v79) Attempt to prevent excessive CPU and RAM usage 
 - **28.02.2023** (v77) Different internal improvements and fixes
 - **10.02.2023** (v76) Raise --threads limit on single core machines
