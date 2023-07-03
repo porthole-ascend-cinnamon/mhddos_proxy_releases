@@ -33,14 +33,13 @@ And for the aarch64 (arm64) version, the command:
 2. Next, run `chmod +x mhddos_proxy_linux`
 3. To start the attack, run `./mhddos_proxy_linux`
 
-To increase max threads limit, use the following command (requires `root`, repeat after system reboot)
+To increase max threads limit, use the following command (repeat after system reboot)
 ```
-sysctl -w net.ipv4.ip_local_port_range="16384 65535"
+sudo sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 ```
-or add to the settings file and apply immediately (also requires `root` rights)
+or to make it persistent
 ```
-echo 'net.ipv4.ip_local_port_range=16384 65535'>> /etc/sysctl.conf
-sysctl -p
+sudo echo 'net.ipv4.ip_local_port_range=16384 65535'>> /etc/sysctl.conf && sudo sysctl -p
 ```
 
 #### Docker (any platform)
@@ -59,11 +58,11 @@ You may edit it to change configuration
     # Run multiple copies (set "auto" for max value, requires 3+ core CPU and stable network)
     copies = 1
 
+    # Number of threads per copy (to enable, remove the hashtag symbol on the next line)
+    #threads = 8000
+
     # Add your IP/VPN to the attack (false | true) (when using VPN or dedicated server)
     vpn = false
-
-    # Number of threads per copy
-    threads = 8000
 
 You can also specify options via command line in `--lang en` and `--vpn` format
 
@@ -71,11 +70,14 @@ Full list of options is available by `--help` command
 
 ### 🐳 Community (mostly in Ukrainian)
 
-- [Setting up with notification to Telegram](https://github.com/sadviq99/mhddos_proxy-setup)
+- [Notification to Telegram](https://github.com/sadviq99/mhddos_proxy-setup)
+- [Linux VM for M1/M2 Mac](https://gist.github.com/prikid/0cd17e45800f3d4faea6a2be58e8979f) (in case of Docker issues)
 - [VPN](https://auto-ddos.notion.site/VPN-5e45e0aadccc449e83fea45d56385b54)
-- [Create a botnet of 30+ free and standalone Linux servers](https://auto-ddos.notion.site/dd91326ed30140208383ffedd0f13e5c)
+- [Free cloud servers](https://auto-ddos.notion.site/dd91326ed30140208383ffedd0f13e5c)
 
 ### ✪ Custom proxies
+<details>
+<summary>Expand</summary>
 
 To specify custom proxy(ies), use the `proxy` option
 
@@ -101,3 +103,4 @@ Surely, these options are also available via command line
     http://username:password@114.231.123.38:3065
 
 if protocol (`socks4`|`socks5`) is not specified, `http` is used by default
+</details>
