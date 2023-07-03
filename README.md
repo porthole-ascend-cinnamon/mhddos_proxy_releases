@@ -71,8 +71,7 @@ sysctl -p
 ### 🐳 Комьюніті
 
 - [Налаштування з нотифікаціями у Телеграм](https://github.com/sadviq99/mhddos_proxy-setup)
-- [VPN](https://auto-ddos.notion.site/VPN-5e45e0aadccc449e83fea45d56385b54)
-- [Створення ботнету з 20+ безкоштовних серверів](https://auto-ddos.notion.site/dd91326ed30140208383ffedd0f13e5c)
+- [Linux VM для M1/M2 Mac](https://gist.github.com/prikid/0cd17e45800f3d4faea6a2be58e8979f) (якщо проблеми з Docker)
 
 ### ✪ Власні проксі
 
