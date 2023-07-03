@@ -22,7 +22,7 @@ You may need to allow running the downloaded file, or disable your antivirus.
    and save to a convenient location
 2. To start the attack, simply launch the file by double-click
 
-#### Linux
+### Linux
 
 1. To download the x64 (amd64) version, use the command:  
 `curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`  
