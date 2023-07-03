@@ -1,6 +1,7 @@
 ## IT Army of Ukraine Official Tool
 
-#### See [Configuration and options](#-configuration-and-options) on how to change the interface language 
+#### See [Configuration and options](#-configuration-and-options) on how to change the interface language
+#### 💁 [Technical support](https://t.me/+H6PnjkydZX0xNDky)
 ### ⭐ Advantages
 
 - Own proxy database creates the attack from the whole world, which makes it much more difficult to protect against
