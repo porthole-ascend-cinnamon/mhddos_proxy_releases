@@ -48,10 +48,10 @@ sudo echo 'net.ipv4.ip_local_port_range=16384 65535' >> /etc/sysctl.conf && sudo
 
 #### Raspberry Pi
 Aarch64 версія має працювати на RPi4, можливо і на RPi3. Головне - 64x розрядна OS.  
-Перегляньте наступні Issues для додаткової інформації та вирішення проблем:  
-1. https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/13
-2. https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/19
-3. https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
+Перегляньте наступні Issues для додаткової інформації та вирішення проблем: 
+https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/13 
+https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/19
+https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
 
 ### 🛠 Налаштування та параметри
 
