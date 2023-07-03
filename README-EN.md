@@ -47,6 +47,13 @@ sudo echo 'net.ipv4.ip_local_port_range=16384 65535'>> /etc/sysctl.conf && sudo 
 1. Install and launch [Docker](https://docs.docker.com/desktop/#download-and-install)
 2. Run with the command `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy`
 
+#### Raspberry Pi
+Aarch64 version should work on RPi4, probably on RPi3 too. The main thing is to have 64x OS.  
+Please refer to these Issues for extra info and potential solutions:
+1. https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/13
+2. https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/19
+3. https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
+
 ### 🛠 Configuration and options
 
 An **mhddos.ini** file will be created in the current directory on the first launch  
