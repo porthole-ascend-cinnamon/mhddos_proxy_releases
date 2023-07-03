@@ -1,8 +1,6 @@
 ## IT Army of Ukraine Official Tool
 
 #### See [Configuration and options](#-configuration-and-options) on how to change the interface language 
-#### [Jump to installation](#-install-and-run)
-
 ### ⭐ Advantages
 
 - Own proxy database creates the attack from the whole world, which makes it much more difficult to protect against
@@ -14,7 +12,7 @@
 
 Attention! Updates happen automatically, all steps except the last one need to be done only at the first time!
 
-#### Windows
+### Windows
 
 Our software does not contain viruses, but some antiviruses identify such software as potentially dangerous and block the files.
 You may need to allow running the downloaded file, or disable your antivirus.
@@ -42,12 +40,12 @@ or to make it persistent
 sudo echo 'net.ipv4.ip_local_port_range=16384 65535'>> /etc/sysctl.conf && sudo sysctl -p
 ```
 
-#### Docker (any platform)
+### Docker (any platform)
 
 1. Install and launch [Docker](https://docs.docker.com/desktop/#download-and-install)
 2. Run with the command `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy`
 
-#### Raspberry Pi
+### Raspberry Pi
 Aarch64 version should work on RPi4, probably on RPi3 too. The main thing is to have 64x OS.  
 Please refer to these Issues for extra info and potential solutions:
 https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/13

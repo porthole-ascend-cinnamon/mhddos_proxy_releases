@@ -1,7 +1,6 @@
 ## IT Army of Ukraine Official Tool
 
 #### [English version - click here](/README-EN.md)
-#### [Перейти до встановлення](#-встановлення-та-запуск)
 ### ⭐ Переваги
 
 - Власна база проксі забезпечує атаку з усіх кінців світу, що значно ускладнює захист від неї
@@ -13,7 +12,7 @@
 
 Увага! Оновлення відбуваються автоматично, усі пункти окрім останнього треба виконувати лише в перший раз!
 
-#### Windows
+### Windows
 
 У нашому ПО немає вірусів, але деякі антивіруси визначають ПО для атак як потенційно небезпечне, і блокують файли.
 Можливо, вам доведеться дозволити виконання завантаженого файлу, або вимкнути свій антивірус.
@@ -23,7 +22,7 @@
    і збережіть у зручному місці
 2. Щоб розпочати, просто запустіть файл подвійним кліком
 
-#### Linux
+### Linux
 
 1. Для завантаження x64 (amd64) версії, скористайтеся командою:  
 `curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`  
@@ -41,12 +40,12 @@ sudo sysctl -w net.ipv4.ip_local_port_range="16384 65535"
 sudo echo 'net.ipv4.ip_local_port_range=16384 65535' >> /etc/sysctl.conf && sudo sysctl -p
 ```
 
-#### Docker (будь-яка платформа)
+### Docker (будь-яка платформа)
 
 1. Встановіть та запустіть [Docker](https://docs.docker.com/desktop/#download-and-install)
 2. Запускайте командою `docker run -it --rm --pull always --net=host ghcr.io/porthole-ascend-cinnamon/mhddos_proxy`
 
-#### Raspberry Pi
+### Raspberry Pi
 Aarch64 версія має працювати на RPi4, можливо і на RPi3. Головне - 64x розрядна OS.  
 Перегляньте наступні Issues для додаткової інформації та вирішення проблем: 
 https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/13 
