@@ -74,7 +74,7 @@ You can also specify options via command line in `--lang en` and `--vpn` format
 
 Full list of options is available by `--help` command
 
-### 🐳 Community (mostly in Ukrainian)
+### 👫 Community (mostly in Ukrainian)
 
 - [Notification to Telegram](https://github.com/sadviq99/mhddos_proxy-setup)
 - [Linux VM for M1/M2 Mac](https://gist.github.com/prikid/0cd17e45800f3d4faea6a2be58e8979f) (in case of Docker issues)
