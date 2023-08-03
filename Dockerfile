@@ -6,8 +6,8 @@ RUN if [ "$TARGETPLATFORM" = "linux/arm64" ]; \
     else FILENAME=mhddos_proxy_linux; fi \
   && apt-get update && apt-get install curl -y \
   && curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/$FILENAME \
-  && apt-get remove -y curl
+  && apt-get remove -y curl \
   && apt-get autoremove -y \
-  && rm -rf /var/lib/apt/lists/* \
+  && rm -rf /var/lib/apt/lists/*
 RUN chmod +x mhddos_proxy_linux
 ENTRYPOINT ["./mhddos_proxy_linux"]
