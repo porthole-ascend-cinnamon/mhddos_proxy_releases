@@ -24,13 +24,22 @@
 2. Щоб розпочати, просто запустіть файл подвійним кліком
 
 ### Linux
+1\. Завантажте версію для своєї платформи
+##### x64 (amd64)
+```
+curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux
+```
+##### x32 (x86)
+```
+curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_x86
+```
+##### arm64 (aarch64)
+```
+curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64
+```
 
-1. Для завантаження x64 (amd64) версії, скористайтеся командою:  
-`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`  
-А для aarch64 (arm64) версії, командою:  
-`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64`
-3. Далі, виконайте `chmod +x mhddos_proxy_linux`
-4. Для початку атаки, виконуйте `./mhddos_proxy_linux`
+2\. Далі, виконайте `chmod +x mhddos_proxy_linux`  
+3\. Для початку атаки, виконуйте `./mhddos_proxy_linux` напряму або всередині `screen`
 
 Для збільшення ліміту на кількість потоків, виконайте наступну команду (працює до перезапуску системи)
 ```
