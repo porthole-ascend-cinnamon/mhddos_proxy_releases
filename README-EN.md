@@ -24,13 +24,22 @@ You may need to allow running the downloaded file, or disable your antivirus.
 2. To start the attack, simply launch the file by double-click
 
 ### Linux
+1\. Download the appropriate version for your platform
+##### x64 (amd64)
+```
+curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux -Lo mhddos_proxy_linux 
+```
+##### x32 (x86)
+```
+curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_x86 -Lo mhddos_proxy_linux 
+```
+##### arm64 (aarch64)
+```
+curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64 -Lo mhddos_proxy_linux 
+```
 
-1. To download the x64 (amd64) version, use the command:  
-`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux`  
-And for the aarch64 (arm64) version, the command:  
-`curl -Lo mhddos_proxy_linux https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64`  
-2. Next, run `chmod +x mhddos_proxy_linux`
-3. To start the attack, run `./mhddos_proxy_linux`
+2\. Next, run `chmod +x mhddos_proxy_linux`
+3\. To start the attack, run `./mhddos_proxy_linux` directly or inside `screen`
 
 To increase max threads limit, use the following command (repeat after system reboot)
 ```
