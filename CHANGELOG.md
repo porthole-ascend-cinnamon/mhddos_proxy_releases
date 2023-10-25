@@ -1,4 +1,9 @@
-- **01.04.2023** (v80) Default threads value raised. New method added.
+- **23.10.2023** (v86) New method added. Internal updates
+- **26.09.2023** (v85) Prevent /tmp piling up, more resilient update process
+- **25.08.2023** (v84) Internal updates
+- **03.08.2023** (v82+v83) 32-bit linux support
+- **05.04.2023** (v81) UI/UX improvements
+- **01.04.2023** (v80) Default threads value raised. New method added
 - **11.03.2023** (v78+v79) Attempt to prevent excessive CPU and RAM usage 
 - **28.02.2023** (v77) Different internal improvements and fixes
 - **10.02.2023** (v76) Raise --threads limit on single core machines
