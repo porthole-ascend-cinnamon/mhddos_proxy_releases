@@ -76,10 +76,10 @@ You may edit it to change configuration
     # Number of threads per copy (to enable, remove the hashtag symbol on the next line)
     #threads = 8000
 
-    # Add your IP/VPN to the attack (false | true) (when using VPN or dedicated server)
-    vpn = false
+    # Use my IP/VPN for the attack in % from 0 to 100 (requires VPN or remote server)
+    use-my-ip = 0
 
-You can also specify options via command line in `--lang en` and `--vpn` format
+You can also specify options via command line in `--lang en`  format
 
 Full list of options is available by `--help` command
 
