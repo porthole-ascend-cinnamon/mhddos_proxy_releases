@@ -1,3 +1,6 @@
+- **04.01.2024** (v89) Fixed resources leak (issue #33)
+- **12.12.2023** (v88) --vpn and --vpn-percents options replaced by --use-my-ip
+- **15.11.2023** (v87) Internal updates
 - **23.10.2023** (v86) New method added. Internal updates
 - **26.09.2023** (v85) Prevent /tmp piling up, more resilient update process
 - **25.08.2023** (v84) Internal updates
