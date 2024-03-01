@@ -1,3 +1,5 @@
+- **01.03.2024** (v91-95) New --ifaces option instead of --bind. Internal bugfixes and improvements
+- **02.02.2024** (v90) Stability improvements
 - **04.01.2024** (v89) Fixed resources leak (issue #33)
 - **12.12.2023** (v88) --vpn and --vpn-percents options replaced by --use-my-ip
 - **15.11.2023** (v87) Internal updates
