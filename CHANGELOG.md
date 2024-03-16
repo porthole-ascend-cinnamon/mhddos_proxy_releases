@@ -1,3 +1,4 @@
+- **15.03.2024** (v96) Performance optimizations
 - **01.03.2024** (v91-95) New --ifaces option instead of --bind. Internal bugfixes and improvements
 - **02.02.2024** (v90) Stability improvements
 - **04.01.2024** (v89) Fixed resources leak (issue #33)
