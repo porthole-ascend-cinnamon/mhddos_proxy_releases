@@ -43,10 +43,6 @@ curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/
 
 To increase max threads limit, use the following command (repeat after system reboot)
 ```
-sudo sysctl -w net.ipv4.ip_local_port_range="1024 65535"
-```
-or to make it persistent
-```
 sudo echo 'net.ipv4.ip_local_port_range=1024 65535'>> /etc/sysctl.conf && sudo sysctl -p
 ```
 
