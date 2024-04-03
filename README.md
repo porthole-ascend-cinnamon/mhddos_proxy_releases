@@ -41,10 +41,6 @@ curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/
 2\. Далі, виконайте `chmod +x mhddos_proxy_linux`  
 3\. Для початку атаки, виконуйте `./mhddos_proxy_linux` напряму або всередині `screen`
 
-Для збільшення ліміту на кількість потоків, виконайте наступну команду
-```
-sudo sh -c "echo 'net.ipv4.ip_local_port_range=1024 65535' >> /etc/sysctl.conf && sysctl -p"
-```
 
 ### Docker (будь-яка платформа)
 

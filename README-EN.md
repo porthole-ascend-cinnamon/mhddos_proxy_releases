@@ -41,10 +41,6 @@ curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/
 2\. Next, run `chmod +x mhddos_proxy_linux`
 3\. To start the attack, run `./mhddos_proxy_linux` directly or inside `screen`
 
-To increase max threads limit, use the following command (repeat after system reboot)
-```
-sudo sh -c "echo 'net.ipv4.ip_local_port_range=1024 65535' >> /etc/sysctl.conf && sysctl -p"
-```
 
 ### Docker (any platform)
 
