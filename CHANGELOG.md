@@ -1,3 +1,6 @@
+- **03.04.2024** (v99) Internal improvements and bugfixes
+- **30.03.2024** (v98) Threads are no longer limited by system ports range
+- **17.03.2024** (v97) Stability improvements
 - **15.03.2024** (v96) Performance optimizations
 - **01.03.2024** (v91-95) New --ifaces option instead of --bind. Internal bugfixes and improvements
 - **02.02.2024** (v90) Stability improvements
