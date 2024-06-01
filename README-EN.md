@@ -75,13 +75,6 @@ You can also specify options via command line in `--lang en`  format
 
 Full list of options is available by `--help` command
 
-### 👫 Community (mostly in Ukrainian)
-
-- [Notification to Telegram](https://github.com/sadviq99/mhddos_proxy-setup)
-- [Linux VM for M1/M2 Mac](https://gist.github.com/prikid/0cd17e45800f3d4faea6a2be58e8979f) (in case of Docker issues)
-- [VPN](https://auto-ddos.notion.site/VPN-5e45e0aadccc449e83fea45d56385b54)
-- [Free cloud servers](https://auto-ddos.notion.site/dd91326ed30140208383ffedd0f13e5c)
-
 ### ✪ Custom proxies
 <details>
 <summary>Expand</summary>

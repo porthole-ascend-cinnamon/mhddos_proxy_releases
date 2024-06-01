@@ -75,13 +75,6 @@ https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
 
 Повний перелік опцій доступний за командою `--help`
 
-### 👫 Ком'юніті (unofficial)
-
-- [Нотифікації у Telegram](https://github.com/sadviq99/mhddos_proxy-setup)
-- [Linux VM для M1/M2 Mac](https://gist.github.com/prikid/0cd17e45800f3d4faea6a2be58e8979f) (якщо проблеми з Docker)
-- [VPN](https://auto-ddos.notion.site/VPN-5e45e0aadccc449e83fea45d56385b54)
-- [Безкоштовні сервери](https://auto-ddos.notion.site/dd91326ed30140208383ffedd0f13e5c)
-
 ### ✪ Власні проксі
 <details>
 <summary>Розгорнути</summary>
