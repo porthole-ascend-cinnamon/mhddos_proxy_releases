@@ -18,8 +18,7 @@ Attention! Updates happen automatically, all steps except the last one need to b
 Our software does not contain viruses, but some antiviruses identify such software as potentially dangerous and block the files.
 You may need to allow running the downloaded file, or disable your antivirus.
 
-1. Download the latest [x64 version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
-   (or [x86 (32-bit)](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win_x86.exe) version if needed)
+1. [Download the latest version](https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_win.exe)
    and save to a convenient location
 2. To start the attack, simply launch the file by double-click
 
@@ -28,10 +27,6 @@ You may need to allow running the downloaded file, or disable your antivirus.
 ##### x64 (amd64)
 ```
 curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux -Lo mhddos_proxy_linux 
-```
-##### x32 (x86)
-```
-curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_x86 -Lo mhddos_proxy_linux 
 ```
 ##### arm64 (aarch64)
 ```
