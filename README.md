@@ -50,7 +50,7 @@ https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/19
 https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
 
 ### Android
-### Налаштування
+#### Налаштування
 Потрібен [Termux](https://github.com/termux/termux-app/releases) та **рутований пристрій**
 ```
 apt update -y && apt install -y root-repo tsu glibc-repo glibc
