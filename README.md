@@ -50,8 +50,8 @@ https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/19
 https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
 
 ### Android
+
 #### Налаштування
-[Детальніше тут](https://github.com/a075577/mhddos_proxy_android)
 
 Потрібен [Termux](https://github.com/termux/termux-app/releases) та **рутований пристрій**
 ```
