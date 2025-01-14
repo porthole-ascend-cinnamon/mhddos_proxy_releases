@@ -51,6 +51,8 @@ https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
 
 ### Android
 #### Setup
+[Details here](https://github.com/a075577/mhddos_proxy_android)
+
 Requies [Termux](https://github.com/termux/termux-app/releases) and **root-ed decice**
 ```
 apt update -y && apt install -y root-repo tsu glibc-repo glibc
