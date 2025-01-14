@@ -49,6 +49,26 @@ https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/13
 https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/19
 https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
 
+### Android
+#### Setup
+Requies [Termux](https://github.com/termux/termux-app/releases) and **root-ed decice**
+```
+apt update -y && apt install -y root-repo tsu glibc-repo glibc
+curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64 -Lo mhddos_proxy
+chmod +x mhddos_proxy
+grun -c mhddos_proxy
+```
+#### Run
+##### arm64 (aarch64)
+```
+sudo grun -n ./mhddos_proxy
+```
+##### arm32 (armv7)
+```
+apt install -y qemu-user-aarch64
+sudo grun -n qemu-aarch64 ./mhddos_proxy
+```
+
 ### 🛠 Configuration and options
 
 An **mhddos.ini** file will be created in the current directory on the first launch  
