@@ -53,7 +53,7 @@ https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/issues/23
 
 #### Setup
 
-Requies [Termux](https://github.com/termux/termux-app/releases) and **root-ed decice**
+Requies [Termux](https://github.com/termux/termux-app/releases) and **rooted device**
 ```
 apt update -y && apt install -y root-repo tsu glibc-repo glibc
 curl https://github.com/porthole-ascend-cinnamon/mhddos_proxy_releases/releases/latest/download/mhddos_proxy_linux_arm64 -Lo mhddos_proxy
